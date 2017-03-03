@@ -1,3 +1,5 @@
+This is Intraktio's fork from Seravo.
+
 -![Seravo.com](https://seravo.com/wp-content/themes/seravo/images/seravo-banner-808x300.png)
 
 # Seravo WordPress
@@ -33,7 +35,7 @@ To use virtualbox make sure you have ```vt-x``` enabled in your bios.
 
 ```
 sudo apt-get install -y vagrant virtualbox virtualbox-dkms
-git clone https://github.com/Seravo/wordpress ~/wordpress-dev
+git clone https://github.com/Intraktio/wordpress ~/wordpress-dev
 cd ~/wordpress-dev
 vagrant plugin install vagrant-hostsupdater vagrant-triggers vagrant-bindfs
 vagrant up
